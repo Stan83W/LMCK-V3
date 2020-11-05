@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "OR";
-  src: url("fonts/OR.otf");
+  font-family: "NM";
+  src: url("fonts/NM.otf");
 }
 @font-face {
-  font-family: "DB";
-  src: url("fonts/DB.otf");
+  font-family: "NB";
+  src: url("fonts/NB.otf");
 }
 
 html,
@@ -13,7 +13,7 @@ body {
   padding: 0%;
   width: 100%;
   height: 100%;
-  font-family: "OR";
+  font-family: "NM";
   text-transform: uppercase;
   background: white;
   top: 0;
@@ -30,10 +30,10 @@ body {
   transition: all 0.5s ease;
 }
 .project-categ {
-  font-family: "DB";
+  font-family: "NB";
   margin: 0 15px;
-  font-size: 20px;
-  letter-spacing: 0.05em;
+  font-size: 15px;
+  /*letter-spacing: 0.05em;*/
   transition: all 0.5s ease;
 }
 .social a {
@@ -114,18 +114,18 @@ body {
 /* Navbar */
 
 .sub {
-  font-family: "DB";
-  letter-spacing: 0.05em;
+  /*letter-spacing: 0.05em;*/
 }
 .navigation {
   display: flex;
   justify-content: space-between;
 }
 .navigation a {
+  font-family: "NB";
   color: white;
   text-decoration: none;
   mix-blend-mode: difference;
-  font-size: 20px;
+  font-size: 15px;
 }
 .nav {
   position: fixed;
