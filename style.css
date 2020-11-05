@@ -14,7 +14,6 @@ body {
   width: 100%;
   height: 100%;
   font-family: "NM";
-  text-transform: uppercase;
   background: white;
   top: 0;
   position: absolute;
@@ -22,9 +21,8 @@ body {
 
 
 /* List */
-
-.project-title h1 {
-  font-weight: 300;
+.intro-parag {
+  font-size: 35px;
 }
 .project-title h1 a {
   transition: all 0.5s ease;
@@ -32,9 +30,10 @@ body {
 .project-categ {
   font-family: "NB";
   margin: 0 15px;
-  font-size: 15px;
+  font-size: 12px;
   /*letter-spacing: 0.05em;*/
   transition: all 0.5s ease;
+  text-transform: uppercase;
 }
 .social a {
   margin: 0 0 0 15px;
@@ -69,7 +68,8 @@ body {
   mix-blend-mode: difference;
 }
 .project h1 {
-  font-size: 50px;
+  font-weight: normal;
+  font-size: 55px;
   margin: 0;
 }
 .project-overlay {
@@ -104,8 +104,11 @@ body {
   color: white;
   mix-blend-mode: difference;
 }
-.description h1.social {
-  margin: 0 0 50px 0;
+.social .project-categ {
+  margin: 0;
+}
+.social {
+  margin-bottom: 50px;
 }
 .not-hovered a, .not-hovered .project-categ {
   color: rgba(255,255,255,0.1) !important;
@@ -125,7 +128,8 @@ body {
   color: white;
   text-decoration: none;
   mix-blend-mode: difference;
-  font-size: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 .nav {
   position: fixed;
